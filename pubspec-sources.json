@@ -226,16 +226,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/checked_yaml-2.0.3.tar.gz",
-        "sha256": "feb6bed21949061731a7a75fc5d2aa727cf160b91af9a3e464c5e3a32e28b5ff",
+        "url": "https://pub.dev/api/archives/checked_yaml-2.0.4.tar.gz",
+        "sha256": "959525d3162f249993882720d52b7e0c833978df229be20702b33d48d91de70f",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/checked_yaml-2.0.3"
+        "dest": ".pub-cache/hosted/pub.dev/checked_yaml-2.0.4"
     },
     {
         "type": "inline",
-        "contents": "feb6bed21949061731a7a75fc5d2aa727cf160b91af9a3e464c5e3a32e28b5ff",
+        "contents": "959525d3162f249993882720d52b7e0c833978df229be20702b33d48d91de70f",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "checked_yaml-2.0.3.sha256"
+        "dest-filename": "checked_yaml-2.0.4.sha256"
     },
     {
         "type": "archive",
@@ -310,16 +310,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/coverage-1.14.0.tar.gz",
-        "sha256": "4b8701e48a58f7712492c9b1f7ba0bb9d525644dd66d023b62e1fc8cdb560c8a",
+        "url": "https://pub.dev/api/archives/coverage-1.14.1.tar.gz",
+        "sha256": "aa07dbe5f2294c827b7edb9a87bba44a9c15a3cc81bc8da2ca19b37322d30080",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/coverage-1.14.0"
+        "dest": ".pub-cache/hosted/pub.dev/coverage-1.14.1"
     },
     {
         "type": "inline",
-        "contents": "4b8701e48a58f7712492c9b1f7ba0bb9d525644dd66d023b62e1fc8cdb560c8a",
+        "contents": "aa07dbe5f2294c827b7edb9a87bba44a9c15a3cc81bc8da2ca19b37322d30080",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "coverage-1.14.0.sha256"
+        "dest-filename": "coverage-1.14.1.sha256"
     },
     {
         "type": "archive",
@@ -1640,16 +1640,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/vm_service-15.0.1.tar.gz",
-        "sha256": "6f82e9ee8e7339f5d8b699317f6f3afc17c80a68ebef1bc0d6f52a678c14b1e6",
+        "url": "https://pub.dev/api/archives/vm_service-15.0.2.tar.gz",
+        "sha256": "45caa6c5917fa127b5dbcfbd1fa60b14e583afdc08bfc96dda38886ca252eb60",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/vm_service-15.0.1"
+        "dest": ".pub-cache/hosted/pub.dev/vm_service-15.0.2"
     },
     {
         "type": "inline",
-        "contents": "6f82e9ee8e7339f5d8b699317f6f3afc17c80a68ebef1bc0d6f52a678c14b1e6",
+        "contents": "45caa6c5917fa127b5dbcfbd1fa60b14e583afdc08bfc96dda38886ca252eb60",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "vm_service-15.0.1.sha256"
+        "dest-filename": "vm_service-15.0.2.sha256"
     },
     {
         "type": "archive",
@@ -1846,6 +1846,20 @@
         "contents": "ea90e81dc4a25a043d9bee692d20ed6d1c4a1662a28c03a96417446c093ed6b4",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "built_value-8.9.5.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/checked_yaml-2.0.3.tar.gz",
+        "sha256": "feb6bed21949061731a7a75fc5d2aa727cf160b91af9a3e464c5e3a32e28b5ff",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/checked_yaml-2.0.3"
+    },
+    {
+        "type": "inline",
+        "contents": "feb6bed21949061731a7a75fc5d2aa727cf160b91af9a3e464c5e3a32e28b5ff",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "checked_yaml-2.0.3.sha256"
     },
     {
         "type": "archive",
