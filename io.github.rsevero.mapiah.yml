@@ -43,6 +43,6 @@ modules:
       - pubspec-sources.json
       - type: git
         url: https://github.com/rsevero/mapiah.git
-        commit: eb11b97d522209fb35eb5f67abaa2e9f02007443
+        commit: a839c35f77bb2ed8a831e10cb4fc11f11b9c9c2f
     modules:
-      - flutter-sdk-3.32.3.json
+      - flutter-sdk-3.32.4.json
