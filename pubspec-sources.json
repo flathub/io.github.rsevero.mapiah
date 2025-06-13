@@ -1724,16 +1724,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/win32-5.13.0.tar.gz",
-        "sha256": "329edf97fdd893e0f1e3b9e88d6a0e627128cc17cc316a8d67fda8f1451178ba",
+        "url": "https://pub.dev/api/archives/win32-5.14.0.tar.gz",
+        "sha256": "66814138c3562338d05613a6e368ed8cfb237ad6d64a9e9334be3f309acfca03",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/win32-5.13.0"
+        "dest": ".pub-cache/hosted/pub.dev/win32-5.14.0"
     },
     {
         "type": "inline",
-        "contents": "329edf97fdd893e0f1e3b9e88d6a0e627128cc17cc316a8d67fda8f1451178ba",
+        "contents": "66814138c3562338d05613a6e368ed8cfb237ad6d64a9e9334be3f309acfca03",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "win32-5.13.0.sha256"
+        "dest-filename": "win32-5.14.0.sha256"
     },
     {
         "type": "archive",
