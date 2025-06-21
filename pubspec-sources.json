@@ -86,16 +86,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build-2.5.0.tar.gz",
-        "sha256": "8295b0b6dfe00499b786718f2936a56b5e0d56d169c528472c8c1908f2b1e3ee",
+        "url": "https://pub.dev/api/archives/build-2.5.3.tar.gz",
+        "sha256": "74273591bd8b7f82eeb1f191c1b65a6576535bbfd5ca3722778b07d5702d33cc",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build-2.5.0"
+        "dest": ".pub-cache/hosted/pub.dev/build-2.5.3"
     },
     {
         "type": "inline",
-        "contents": "8295b0b6dfe00499b786718f2936a56b5e0d56d169c528472c8c1908f2b1e3ee",
+        "contents": "74273591bd8b7f82eeb1f191c1b65a6576535bbfd5ca3722778b07d5702d33cc",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build-2.5.0.sha256"
+        "dest-filename": "build-2.5.3.sha256"
     },
     {
         "type": "archive",
@@ -128,44 +128,44 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_resolvers-2.5.0.tar.gz",
-        "sha256": "57fe2f9149b01d52fcd0ea7de17083739b5cf9e040dedb4e24a17c628c1e9caf",
+        "url": "https://pub.dev/api/archives/build_resolvers-2.5.3.tar.gz",
+        "sha256": "badce70566085f2e87434531c4a6bc8e833672f755fc51146d612245947e91c9",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_resolvers-2.5.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_resolvers-2.5.3"
     },
     {
         "type": "inline",
-        "contents": "57fe2f9149b01d52fcd0ea7de17083739b5cf9e040dedb4e24a17c628c1e9caf",
+        "contents": "badce70566085f2e87434531c4a6bc8e833672f755fc51146d612245947e91c9",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_resolvers-2.5.0.sha256"
+        "dest-filename": "build_resolvers-2.5.3.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_runner-2.5.0.tar.gz",
-        "sha256": "9b196d7b629c5317dff3ec83c7e98840b773cee3b9339b646fe487048d2ebc74",
+        "url": "https://pub.dev/api/archives/build_runner-2.5.3.tar.gz",
+        "sha256": "b9070a4127033777c0e63195f6f117ed16a351ed676f6313b095cf4f328c0b82",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.5.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_runner-2.5.3"
     },
     {
         "type": "inline",
-        "contents": "9b196d7b629c5317dff3ec83c7e98840b773cee3b9339b646fe487048d2ebc74",
+        "contents": "b9070a4127033777c0e63195f6f117ed16a351ed676f6313b095cf4f328c0b82",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_runner-2.5.0.sha256"
+        "dest-filename": "build_runner-2.5.3.sha256"
     },
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/build_runner_core-9.0.0.tar.gz",
-        "sha256": "dae6a8a5cbef6866cdfa0d96df4b0d85b9086897096270a405a44d946dafffba",
+        "url": "https://pub.dev/api/archives/build_runner_core-9.1.1.tar.gz",
+        "sha256": "1cdfece3eeb3f1263f7dbf5bcc0cba697bd0c22d2c866cb4b578c954dbb09bcf",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/build_runner_core-9.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/build_runner_core-9.1.1"
     },
     {
         "type": "inline",
-        "contents": "dae6a8a5cbef6866cdfa0d96df4b0d85b9086897096270a405a44d946dafffba",
+        "contents": "1cdfece3eeb3f1263f7dbf5bcc0cba697bd0c22d2c866cb4b578c954dbb09bcf",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "build_runner_core-9.0.0.sha256"
+        "dest-filename": "build_runner_core-9.1.1.sha256"
     },
     {
         "type": "archive",
