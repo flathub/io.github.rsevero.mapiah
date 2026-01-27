@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+
+Name=Mapiah
+Comment=User friendly Therion map editor
+Categories=Graphics;
+
+Icon=io.github.rsevero.mapiah
+Exec=mapiah
+Terminal=false
+StartupWMClass=mapiah
