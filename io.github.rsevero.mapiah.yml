@@ -33,7 +33,7 @@ modules:
       - install -D $BUNDLE_PATH/mapiah /app/bin/mapiah
       - cp -r $BUNDLE_PATH/lib /app/bin/lib
       - cp -r $BUNDLE_PATH/data /app/bin/data
-      - install -Dm644 packaging/linux/io.github.rsevero.mapiah.metainfo.xml -t /app/share/metainfo
+      - install -Dm644 io.github.rsevero.mapiah.metainfo.xml -t /app/share/metainfo
       - install -Dm644 packaging/linux/io.github.rsevero.mapiah.desktop -t /app/share/applications
       - install -Dm644 assets/icons/m-64x64.png /app/share/icons/hicolor/64x64/apps/io.github.rsevero.mapiah.png
       - install -Dm644 assets/icons/m-128x128.png /app/share/icons/hicolor/128x128/apps/io.github.rsevero.mapiah.png
@@ -43,6 +43,9 @@ modules:
       - type: git
         url: https://github.com/rsevero/mapiah.git
         tag: v0.2.32
+        commit: b2702c038ca0b67af555acf85f258b2f65dc30f8
+      - type: file
+        path: io.github.rsevero.mapiah.metainfo.xml
       - generated/sources/pubspec.json
     modules:
       - generated/modules/flutter-sdk-3.38.7.json
