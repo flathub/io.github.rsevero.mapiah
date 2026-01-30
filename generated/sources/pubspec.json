@@ -226,16 +226,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/code_assets-0.19.10.tar.gz",
-        "sha256": "ae0db647e668cbb295a3527f0938e4039e004c80099dce2f964102373f5ce0b5",
+        "url": "https://pub.dev/api/archives/code_assets-1.0.0.tar.gz",
+        "sha256": "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/code_assets-0.19.10"
+        "dest": ".pub-cache/hosted/pub.dev/code_assets-1.0.0"
     },
     {
         "type": "inline",
-        "contents": "ae0db647e668cbb295a3527f0938e4039e004c80099dce2f964102373f5ce0b5",
+        "contents": "83ccdaa064c980b5596c35dd64a8d3ecc68620174ab9b90b6343b753aa721687",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "code_assets-0.19.10.sha256"
+        "dest-filename": "code_assets-1.0.0.sha256"
     },
     {
         "type": "archive",
@@ -506,16 +506,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/hooks-0.20.5.tar.gz",
-        "sha256": "5410b9f4f6c9f01e8ff0eb81c9801ea13a3c3d39f8f0b1613cda08e27eab3c18",
+        "url": "https://pub.dev/api/archives/hooks-1.0.0.tar.gz",
+        "sha256": "5d309c86e7ce34cd8e37aa71cb30cb652d3829b900ab145e4d9da564b31d59f7",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/hooks-0.20.5"
+        "dest": ".pub-cache/hosted/pub.dev/hooks-1.0.0"
     },
     {
         "type": "inline",
-        "contents": "5410b9f4f6c9f01e8ff0eb81c9801ea13a3c3d39f8f0b1613cda08e27eab3c18",
+        "contents": "5d309c86e7ce34cd8e37aa71cb30cb652d3829b900ab145e4d9da564b31d59f7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "hooks-0.20.5.sha256"
+        "dest-filename": "hooks-1.0.0.sha256"
     },
     {
         "type": "archive",
@@ -814,16 +814,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/native_toolchain_c-0.17.2.tar.gz",
-        "sha256": "f8872ea6c7a50ce08db9ae280ca2b8efdd973157ce462826c82f3c3051d154ce",
+        "url": "https://pub.dev/api/archives/native_toolchain_c-0.17.4.tar.gz",
+        "sha256": "89e83885ba09da5fdf2cdacc8002a712ca238c28b7f717910b34bcd27b0d03ac",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/native_toolchain_c-0.17.2"
+        "dest": ".pub-cache/hosted/pub.dev/native_toolchain_c-0.17.4"
     },
     {
         "type": "inline",
-        "contents": "f8872ea6c7a50ce08db9ae280ca2b8efdd973157ce462826c82f3c3051d154ce",
+        "contents": "89e83885ba09da5fdf2cdacc8002a712ca238c28b7f717910b34bcd27b0d03ac",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "native_toolchain_c-0.17.2.sha256"
+        "dest-filename": "native_toolchain_c-0.17.4.sha256"
     },
     {
         "type": "archive",
@@ -842,16 +842,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/objective_c-9.2.2.tar.gz",
-        "sha256": "55eb67ede1002d9771b3f9264d2c9d30bc364f0267bc1c6cc0883280d5f0c7cb",
+        "url": "https://pub.dev/api/archives/objective_c-9.2.4.tar.gz",
+        "sha256": "7fd0c4d8ac8980011753b9bdaed2bf15111365924cdeeeaeb596214ea2b03537",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/objective_c-9.2.2"
+        "dest": ".pub-cache/hosted/pub.dev/objective_c-9.2.4"
     },
     {
         "type": "inline",
-        "contents": "55eb67ede1002d9771b3f9264d2c9d30bc364f0267bc1c6cc0883280d5f0c7cb",
+        "contents": "7fd0c4d8ac8980011753b9bdaed2bf15111365924cdeeeaeb596214ea2b03537",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "objective_c-9.2.2.sha256"
+        "dest-filename": "objective_c-9.2.4.sha256"
     },
     {
         "type": "archive",
@@ -1290,16 +1290,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/source_gen-4.1.2.tar.gz",
-        "sha256": "585bc140f20da42c584ece2df28f4d9ef2566955332b626f655957b3a8c8ad54",
+        "url": "https://pub.dev/api/archives/source_gen-4.2.0.tar.gz",
+        "sha256": "1d562a3c1f713904ebbed50d2760217fd8a51ca170ac4b05b0db490699dbac17",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/source_gen-4.1.2"
+        "dest": ".pub-cache/hosted/pub.dev/source_gen-4.2.0"
     },
     {
         "type": "inline",
-        "contents": "585bc140f20da42c584ece2df28f4d9ef2566955332b626f655957b3a8c8ad54",
+        "contents": "1d562a3c1f713904ebbed50d2760217fd8a51ca170ac4b05b0db490699dbac17",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "source_gen-4.1.2.sha256"
+        "dest-filename": "source_gen-4.2.0.sha256"
     },
     {
         "type": "archive",
@@ -1514,16 +1514,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/url_launcher_web-2.4.1.tar.gz",
-        "sha256": "4bd2b7b4dc4d4d0b94e5babfffbca8eac1a126c7f3d6ecbc1a11013faa3abba2",
+        "url": "https://pub.dev/api/archives/url_launcher_web-2.4.2.tar.gz",
+        "sha256": "d0412fcf4c6b31ecfdb7762359b7206ffba3bbffd396c6d9f9c4616ece476c1f",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/url_launcher_web-2.4.1"
+        "dest": ".pub-cache/hosted/pub.dev/url_launcher_web-2.4.2"
     },
     {
         "type": "inline",
-        "contents": "4bd2b7b4dc4d4d0b94e5babfffbca8eac1a126c7f3d6ecbc1a11013faa3abba2",
+        "contents": "d0412fcf4c6b31ecfdb7762359b7206ffba3bbffd396c6d9f9c4616ece476c1f",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "url_launcher_web-2.4.1.sha256"
+        "dest-filename": "url_launcher_web-2.4.2.sha256"
     },
     {
         "type": "archive",
