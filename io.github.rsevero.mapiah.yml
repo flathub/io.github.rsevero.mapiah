@@ -42,8 +42,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/rsevero/mapiah.git
-        tag: v0.2.32
-        commit: b2702c038ca0b67af555acf85f258b2f65dc30f8
+        tag: v0.2.33
+        commit: aaae2d75c7636e6e26a4c0c853c656f6418b7741
       - type: file
         path: io.github.rsevero.mapiah.metainfo.xml
       - generated/sources/pubspec.json
