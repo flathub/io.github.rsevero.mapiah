@@ -1304,6 +1304,104 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/shared_preferences-2.5.4.tar.gz",
+        "sha256": "2939ae520c9024cb197fc20dee269cd8cdbf564c8b5746374ec6cacdc5169e64",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/shared_preferences-2.5.4"
+    },
+    {
+        "type": "inline",
+        "contents": "2939ae520c9024cb197fc20dee269cd8cdbf564c8b5746374ec6cacdc5169e64",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "shared_preferences-2.5.4.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/shared_preferences_android-2.4.20.tar.gz",
+        "sha256": "cbc40be9be1c5af4dab4d6e0de4d5d3729e6f3d65b89d21e1815d57705644a6f",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/shared_preferences_android-2.4.20"
+    },
+    {
+        "type": "inline",
+        "contents": "cbc40be9be1c5af4dab4d6e0de4d5d3729e6f3d65b89d21e1815d57705644a6f",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "shared_preferences_android-2.4.20.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/shared_preferences_foundation-2.5.6.tar.gz",
+        "sha256": "4e7eaffc2b17ba398759f1151415869a34771ba11ebbccd1b0145472a619a64f",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/shared_preferences_foundation-2.5.6"
+    },
+    {
+        "type": "inline",
+        "contents": "4e7eaffc2b17ba398759f1151415869a34771ba11ebbccd1b0145472a619a64f",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "shared_preferences_foundation-2.5.6.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/shared_preferences_linux-2.4.1.tar.gz",
+        "sha256": "580abfd40f415611503cae30adf626e6656dfb2f0cee8f465ece7b6defb40f2f",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/shared_preferences_linux-2.4.1"
+    },
+    {
+        "type": "inline",
+        "contents": "580abfd40f415611503cae30adf626e6656dfb2f0cee8f465ece7b6defb40f2f",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "shared_preferences_linux-2.4.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/shared_preferences_platform_interface-2.4.1.tar.gz",
+        "sha256": "57cbf196c486bc2cf1f02b85784932c6094376284b3ad5779d1b1c6c6a816b80",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/shared_preferences_platform_interface-2.4.1"
+    },
+    {
+        "type": "inline",
+        "contents": "57cbf196c486bc2cf1f02b85784932c6094376284b3ad5779d1b1c6c6a816b80",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "shared_preferences_platform_interface-2.4.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/shared_preferences_web-2.4.3.tar.gz",
+        "sha256": "c49bd060261c9a3f0ff445892695d6212ff603ef3115edbb448509d407600019",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/shared_preferences_web-2.4.3"
+    },
+    {
+        "type": "inline",
+        "contents": "c49bd060261c9a3f0ff445892695d6212ff603ef3115edbb448509d407600019",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "shared_preferences_web-2.4.3.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/shared_preferences_windows-2.4.1.tar.gz",
+        "sha256": "94ef0f72b2d71bc3e700e025db3710911bd51a71cefb65cc609dd0d9a982e3c1",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/shared_preferences_windows-2.4.1"
+    },
+    {
+        "type": "inline",
+        "contents": "94ef0f72b2d71bc3e700e025db3710911bd51a71cefb65cc609dd0d9a982e3c1",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "shared_preferences_windows-2.4.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/shelf-1.4.2.tar.gz",
         "sha256": "e7dd780a7ffb623c57850b33f43309312fc863fb6aa3d276a754bb299839ef12",
         "strip-components": 0,
@@ -1440,20 +1538,6 @@
         "contents": "ab2726c1a94d3176a45960b6234466ec367179b87dd74f1611adb1f3b5fb9d55",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "test_api-0.7.7.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/toml-0.18.0.tar.gz",
-        "sha256": "35a35f782228656a2af31e8c73d1353cc4ef3d683fd68af1111b44631879c05e",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/toml-0.18.0"
-    },
-    {
-        "type": "inline",
-        "contents": "35a35f782228656a2af31e8c73d1353cc4ef3d683fd68af1111b44631879c05e",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "toml-0.18.0.sha256"
     },
     {
         "type": "archive",
