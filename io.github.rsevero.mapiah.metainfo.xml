@@ -41,8 +41,8 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://github.com/rsevero/mapiah/raw/main/auxiliary/screenshots/mapiah-initial.png</image>
-      <caption>Initial window</caption>
+      <image>https://github.com/rsevero/mapiah/raw/main/auxiliary/screenshots/mapiah-options.png</image>
+      <caption>Options dialog</caption>
     </screenshot>
 
     <screenshot>
@@ -51,12 +51,112 @@
     </screenshot>
 
     <screenshot>
-      <image>https://github.com/rsevero/mapiah/raw/main/auxiliary/screenshots/mapiah-options.png</image>
-      <caption>Options dialog</caption>
+      <image>https://github.com/rsevero/mapiah/raw/main/auxiliary/screenshots/mapiah-initial.png</image>
+      <caption>Initial window</caption>
     </screenshot>
   </screenshots>
 
   <releases>
+    <release version="0.2.39" date="2026-03-05">
+      <description>
+        <p>0.2.39 - 2026-03-05 - The Seeds of Love release</p>
+
+        <p>New features:</p>
+        <ul>
+          <li>Created keyboard shortcuts to run Therion: Ctrl+T (choose THConfig file and run Therion) and T (run Therion).</li>
+          <li>Showing PLA type and subtype at PLA overlay window.</li>
+          <li>Setting PLA type and subtype at PLA overlay window.</li>
+          <li>Element type showing also subtype on multiple elements clicked overlay window.</li>
+          <li>Flathub/flatpak release running embedded Therion.</li>
+        </ul>
+
+        <p>Fixed bugs:</p>
+        <ul>
+          <li>THConfig select file dialog not accepting common thconfig files. [reported by CaverBruce (issue #16)]</li>
+          <li>PLA types of created elements not added as last and most used types.</li>
+          <li>Creating new line with a subtype throws.</li>
+          <li>Test 3400 failing.</li>
+          <li>Test 3500 failing.</li>
+          <li>Unknown subtypes shown as internal subtype ID (all user type subtypes).</li>
+          <li>Setting subtype should update the last used subtype for the PLA type.</li>
+        </ul>
+
+        <p>Infrastructure maintenance:</p>
+        <ul>
+          <li>Converted MPGeneralController to a MobX store.</li>
+          <li>Created MPButtonTypes chooseTHConfigAndRunTherion and runTherion to run Therion.</li>
+          <li>Created TH2FileEditcontroller.getTHFileWidgetBuildContext().</li>
+          <li>Removed unused methods from TH2FileEditElementEditController.</li>
+          <li>Created addPoint() method in TH2FileEditElementEditController.</li>
+          <li>Monitoring subtypes with last used PLA types.</li>
+          <li>flutter upgrade to 3.41.3</li>
+          <li>flutter pub upgrade --major-versions</li>
+          <li>Embedding Therion (and its dependencies) in Flathub/Flatpak release.</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="0.2.38" date="2026-03-01">
+      <description>
+        <p>0.2.38 - 2026-06-01 - The Run therion in Flathub release</p>
+
+        <p>Fixed bugs:</p>
+        <ul>
+          <li>Flatpak release not running Therion from Mapiah.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.2.37" date="2026-03-01">
+      <description>
+        <p>0.2.37 - 2026-03-01 - The Run Therion release</p>
+
+        <p>New features:</p>
+        <ul>
+          <li>Created Settings page.</li>
+          <li>Settings page with real time per setting type validation.</li>
+          <li>Settings page with "reset" button for each setting and for all settings.</li>
+          <li>Created new settings type: FilePickerExecutable.</li>
+          <li>Running Therion.</li>
+          <li>Tracking warnings and errors on Therion run output.</li>
+          <li>Debug output on Windows search for therion install info.</li>
+          <li>Caching Therion install path on windows on search.</li>
+          <li>MacOS Therion runner implementation.</li>
+          <li>"Choose THConfig file and run Therion" and "Run Therion" buttons painted red if no Therion found.</li>
+          <li>"Choose THConfig file and run Therion" and "Run Therion" buttons directed to appropriate help page in case no Therion is found.</li>
+        </ul>
+
+        <p>Fixed bugs:</p>
+        <ul>
+          <li>'Cancel' button on settings page not closing page.</li>
+          <li>Therion run output should be selectable as a whole and not only single lines.</li>
+          <li>Therion run output has no line breaks after copy/paste.</li>
+          <li>Searching for Therion install path on windows always failing.</li>
+          <li>Therion run on Windows.</li>
+          <li>Windows tests.</li>
+          <li>Set therion path not used on Windows.</li>
+          <li>Regression on appLocalizations initialization on MapiahHome.</li>
+        </ul>
+
+        <p>Infrastructure maintenance:</p>
+        <ul>
+          <li>Included "Current status" section in README.md. [requested by CaverBruce]</li>
+          <li>Included "Choose THConfig and run Therion" and "Run Therion" buttons in both MapiaHome and TH2FileEdit pages.</li>
+          <li>Moved business logic of running therion from MPRunTherionDialogWidget to new MPTherionRunner.</li>
+          <li>Added MPTherionRunner ok &lt; warning &lt; error escalation test.</li>
+          <li>Added multi line selection + clickable warnings and errors test.</li>
+          <li>MPTherionRunner checking exit code at end of therion run.</li>
+          <li>Fixed therion run for flatpak releases.</li>
+          <li>Renamed MPSettingsType -&gt; MPSettingType and MPSettingTypeType -&gt; MPSettingTypeType.</li>
+          <li>Renamed MPSettingType -&gt; MPSettingID and MPSettingTypeType -&gt; MPSettingType.</li>
+          <li>Unified therion executable path setting and therion executable path for encoding discovery.</li>
+          <li>Renamed MPSettingsController.getTYPE -&gt; getTYPEWithDefault.</li>
+          <li>Created MPSettingsController.getTYPEIfSet() that returns null if not set.</li>
+          <li>Created MPBaseTherionRunner class with getUserDefinedTherionExecutablePath() method.</li>
+          <li>therionExecutablePath and preferredExecutablePath from MPTherionRunner not used on Linux.</li>
+          <li>Created MPLinuxTherionRunner.</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.2.36" date="2026-02-24">
       <url type="details">https://github.com/rsevero/mapiah/releases/tag/v0.2.36</url>
       <description>
