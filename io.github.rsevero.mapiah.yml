@@ -104,7 +104,7 @@ modules:
       - type: git
         url: https://github.com/rsevero/mapiah.git
         tag: v0.3.0
-        commit: 784aaaab1a3c6864394d7ed453d96772e6e1fa1b
+        commit: f4a7c0a0c4984e84f40213c99883bfe23511c597
       - type: file
         path: io.github.rsevero.mapiah.metainfo.xml
       - generated/sources/pubspec.json
